@@ -2,8 +2,8 @@
 
 void printTree(int height) {
     int i, j;
-    for (i = 0; i < height; i++) { // Pêtla zewnêtrzna
-        for (j = 0; j < height - i - 1; j++) // Pêtla wewnêtrzna przed gwiazdkami
+    for (i = 0; i < height; i++) { 
+        for (j = 0; j < height - i - 1; j++) 
             printf(" ");
         for (j = 0; j <= i; j++)
             printf("* ");
