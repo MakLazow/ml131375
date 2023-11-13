@@ -14,7 +14,7 @@ void printTree(int height) {
 int main() {
     int height = 10;
 
-    // Generowanie choinki
+   
     printf("Choinka 1:\n");
     printTree(height);
 
