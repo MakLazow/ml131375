@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h> // do generowania losowych liczb
+#include <stdlib.h> 
 
 int main() {
     int n;
-    printf("Podaj iloœæ liczb do wylosowania: ");
+    printf("Podaj iloÅ›Ä‡ liczb do wylosowania: ");
     scanf("%d", &n);
 
     int liczby[n];
     printf("Wylosowane liczby:\n");
     for (int i = 0; i < n; i++) {
-        liczby[i] = rand() % 56 - 10; // wylosowanie liczby z przedzia³u (-10,45)
+        liczby[i] = rand() % 56 - 10; 
         printf("%d ", liczby[i]);
     }
     printf("\n");
@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    printf("Suma liczb parzystych w ci¹gu wynosi: %d\n", suma);
+    printf("Suma liczb parzystych w ciÄ…gu wynosi: %d\n", suma);
 
     return 0;
 }
